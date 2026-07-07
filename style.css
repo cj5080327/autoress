@@ -6,13 +6,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #dbeeff;
     color: #333;
 }
 
 
 header {
-    background: #333;
+    background: #0066cc;
     color: white;
     text-align: center;
     padding: 30px 10px;
@@ -37,7 +37,8 @@ main {
 
 
 .autor {
-    background: white;
+    background: #eaf4ff;
+    border: 2px solid #0066cc;
     border-radius: 15px;
     padding: 20px;
     text-align: center;
@@ -55,7 +56,7 @@ main {
 
 
 .autor h2 {
-    color: #333;
+    color: #0052a3;
     margin-bottom: 10px;
 }
 
