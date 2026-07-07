@@ -1,39 +1,19 @@
-body {
-     font-family: Arial, sans-serif;
-     line-height: 1.6;
-     margin: 0;
-     padding: 0;
-     background-color: #f4f4f4;
-     color: #333;
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
+.autor {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-}
-
-header p {
-    margin: 0.5rem 0 0;
-    font-style: italic;
-}
-
-main {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-}
-
-.entrada-autores {
-    background: #fff;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+.autor img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
